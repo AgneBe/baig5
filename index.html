@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baigiamasis darbas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="app/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+   <a href="#registration"> <img src="app/images/logo1.svg" alt="cheshire"></a>
+    <div class="links">
+      <a href="#mountains">Features</a>
+      <a href="#black-box">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#swiper">Reviews</a>
+      <a href="#contact">Contacts</a>
+    </div>
+    <i id="burger" class="fa-solid fa-bars" style="color: #ffffff;"></i>
+  </nav>
+  <header>
+    <div id="registration" class="registration">
+      <img src="app/images/logo2.svg" alt="logo">
+      <h1>Explained propriety <br> of out perpetual to you</h1>
+      <img src="app/images/divider1.png" alt="divider">
+      <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor.
+        Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated
+        astonished is.</p>
+      <button>DOWNLOAD</button>
+    </div>
+    <div class="subscription">
+      <div class="top-box">
+        <h2>Try Your <span>Free</span> Trial Today</h2>
+      </div>
+      <div class="details">
+        <h3>Your details</h3>
+        <form action="#">
+          <input type="text" id="name" name="fname" placeholder="First name" autocomplete="off"><br>
+          <input type="text" id="name" name="lname" placeholder="Last name" autocomplete="off"><br>
+          <input type="number" id="number" name="pnumber" placeholder="Phone number" autocomplete="off"><br>
+
+          <h3>Type of subsciption</h3>
+          <label class="container1">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark">MONTHLY</span>
+          </label>
+
+          <label class="container2">
+            <input type="radio" name="radio">
+            <span class="checkmark">YEARLY</span>
+          </label>
+      </div>
+      <input class="submit" type="submit" value="GET STARTED">
+    </div>
+    </form>
+  </header>
+  <main>
+    <section class="social">
+      <div class="left">
+        <h3>Social Media</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+        </p>
+      </div>
+      <div class="media">
+        <img src="app/images/facebook-logo.svg" alt="facebook">
+        <img src="app/images/instagram-logo.svg" alt="IG">
+        <img src="app/images/twitter (1).svg" alt="twitter">
+        <img src="app/images/pinterest.svg" alt="pinterest">
+        <img src="app/images/rss.svg" alt="rss">
+      </div>
+    </section>
+    <section id="mountains" class="mountains">
+      <div class="tabs-container">
+        <div class="buttons">
+          <button onclick="showTab(event, 'first')">
+            <h4>REGISTER</h4>
+          </button>
+          <button onclick="showTab(event, 'second')">
+            <h4>APPLY</h4>
+          </button>
+          <button onclick="showTab(event, 'third')">
+            <h4>RECEIVE</h4>
+          </button>
+        </div>
+        <div class="tabs">
+          <div id="first" class="tab">
+            <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+              dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+          </div>
+          <div id="second" class="tab">
+            <h1>Apply</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur optio quo quidem excepturi enim est
+              nam iusto. Alias, nesciunt eveniet.
+            </p>
+          </div>
+          <div id="third" class="tab">
+            <h1>Receive</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, facilis nam? Officia nemo corrupti
+              soluta? Ipsum officia explicabo, cum assumenda hic asperiores voluptates odio ea ducimus provident totam?
+              Quam accusamus blanditiis adipisci incidunt esse repudiandae delectus, ut dolores repellat et praesentium
+              provident, quasi commodi dolor. Nostrum sequi expedita doloremque non, saepe voluptas ex nihil natus
+              asperiores, dicta autem quas. Asperiores iusto ipsam porro deleniti accusantium officiis incidunt
+              necessitatibus quasi animi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="images">
+        <div class="img img-1">
+          <p>Explore</p>
+        </div>
+        <div class="img img-2">
+          <p>Enjoy</p>
+        </div>
+        <div class="img img-3">
+          <p>Inspire</p>
+        </div>
+      </div>
+    </section>
+    <section id="black-box" class="black-box">
+      <div class="logo">
+        <img class="logo3" src="app/images/image6.png" alt="logo">
+      </div>
+      <div class="text">
+        <div class="erat">
+          <h1>Erat tempor tempus erat malesuada</h1>
+          <img class="orange" src="app/images/divider_orange_u7 copy 4.svg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+            dolor
+            sit amet lacus accumsan et viverra justo commodo.</p>
+        </div>
+        <div class="title">
+          <div class="paragraph">
+            <div class="circle">
+              <img src="app/images/comment-regular.svg" alt="comment">
+            </div>
+            <div class="title-text">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="circle">
+              <img src="app/images/eye.svg" alt="eye">
+            </div>
+            <div class="title-text">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+                dolor
+                sit amet lacus accumsan et viverra justo commodo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recommendations">
+      <div class="awesome">
+        <h1>WHY THIS IS AWESOME</h1>
+        <img src="app/images/divider_orange_u7 copy 3.svg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="ideas">
+        <div class="design">
+          <div class="circle"><img src="/app/images/award.svg" alt="visa"></div>
+          <h3>Thoughtful Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+        </div>
+
+        <div class="design">
+          <div class="circle"><img src="/app/images/spa.svg" alt="visa"></div>
+          <h3>Well Crafted</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+        </div>
+
+        <div class="design">
+          <div class="circle"><img src="/app/images/visa.svg" alt="visa"></div>
+          <h3>Easy to Customize</h3>
+          <p>Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="pricing">
+      <div class="pricing-options">
+        <h1>PRICING OPTIONS</h1>
+        <img src="app/images/divider_green.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <article>
+        <div class="prices">
+          <div class="black">
+            <h3>Basic</h3>
+            <h1>$<span>0</span></h1>
+            <h5>Free for Life</h5>
+          </div>
+          <div class="list">
+            <ul>
+              <li>1 GB OF SPACE</li>
+              <li>10 GB OF BANDWIDTH</li>
+              <li>3 WEBSITES</li>
+              <li>BASIC CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>EMAIL SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="black">
+            <h3>Professional</h3>
+            <h1>$<span>19</span></h1>
+            <h5>Monthly Payment</h5>
+          </div>
+          <div class="list">
+            <ul>
+              <li class="green">OUR MOST POPULAR</li>
+              <li>5 GB OF SPACE</li>
+              <li>50 GB OF BANDWIDTH</li>
+              <li>12 WEBSITES</li>
+              <li>ADVANCED CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>EMAIL SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="black">
+            <h3>Enterprise</h3>
+            <h1>$<span>70</span></h1>
+            <h5>Monthly Payment</h5>
+          </div>
+          <div class="list">
+            <ul>
+              <li>UNLIMITED SPACE</li>
+              <li>UNLIMITED BANDWIDTH</li>
+              <li>100 WEBSITES</li>
+              <li>ADVANCED CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>24/7 CUSTOMER SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="swiper" class="swiper">
+      <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+      <div class="blue-line"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique
+            odio aspernatur ex.</p>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>Jeremy H.</h4>
+              <h5>Manager</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="comment">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+          </div>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>John S</h4>
+              <h5>Freelancer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique
+            odio aspernatur ex.</p>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>Susan W.</h4>
+              <h5>Photographer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique
+            odio aspernatur ex.</p>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>Emily B.</h4>
+              <h5>Teacher</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique
+            odio aspernatur ex.</p>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>Leona Y.</h4>
+              <h5>Writer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique
+            odio aspernatur ex.</p>
+          <div class="name-occupation">
+            <img src="/app/images/pic.png" alt="picture">
+            <div>
+              <h4>Vanessa D.</h4>
+              <h5>Developer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="contact" class="contact">
+      <h1>CONTACT US</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="contact-form">
+        <form action="#">
+          <input type="text" id="name" name="fname" placeholder="First name" autocomplete="off"><br>
+          <input type="text" id="name" name="lname" placeholder="Last name" autocomplete="off"><br>
+          <input type="number" id="number" name="pnumber" placeholder="Phone number" autocomplete="off"><br>
+
+          <label class="container1">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark">PERSONAL</span>
+          </label>
+          <label class="container2">
+            <input type="radio" name="radio">
+            <span class="checkmark">COMPANY</span>
+          </label>
+          <div class="submit-button">
+            <input class="submit" type="submit" value="SEND">
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="bottom">
+      <div class="social">
+        <img src="app/images/facebook-logo.svg" alt="facebook">
+        <img src="app/images/instagram-logo.svg" alt="IG">
+        <img src="app/images/twitter (1).svg" alt="twitter">
+        <img src="app/images/pinterest.svg" alt="pinterest">
+        <img src="app/images/rss.svg" alt="rss">
+      </div>
+      <div class="right">
+        <p>© 2019 Cheshire County</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
